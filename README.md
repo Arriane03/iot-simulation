@@ -62,33 +62,31 @@ Les fichiers de sécurité (passwd, .key, .crt) ne sont pas présents sur GitHub
 ## Modifier le fichier d’authentification (mosquitto.conf)
 
 ### exemple
- =========================
- MQTT sécurisé WS3
- =========================
+ 
 
 listener 8883
 protocol mqtt
 
- TLS
+(TLS)
 cafile C:\Program Files\mosquitto\mosquitto.crt
 certfile C:\Program Files\mosquitto\mosquitto.crt
 keyfile C:\Program Files\mosquitto\mosquitto.key
 require_certificate false
 
- Authentification
+(Authentification)
 allow_anonymous false
 password_file C:\Program Files\mosquitto\passwd
 
- Logs
+(Logs)
 log_type all
 
 ## Lancer le broker MQTT sécurisé
 mosquitto -c mosquitto.conf -v
 
 ## Enfin, exécuter le projet
-python edge.py 
-python capteur.py (Simulation de capteur IOT)
-python graph.py (Visualisation en temps réel)
+- python edge.py 
+- python capteur.py (Simulation de capteur IOT)
+- python graph.py (Visualisation en temps réel)
 
 
 
