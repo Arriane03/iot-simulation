@@ -3,7 +3,7 @@
 
 
 ## Objectif du projet
-Ce projet a pour objectif de simuler une architecture IoT sécurisée en utilisant le protocole MQTT over TLS.  
+Ce projet a pour objectif de simuler une architecture IoT sécurisée en utilisant le protocole MQTT.  
 Un capteur IoT envoie périodiquement des données (température simulée) vers le edge, qui les reçoit via un broker Mosquitto sécurisé, puis les données sont visualisées sous forme de graphe en temps réel.
 
 Ce projet met en œuvre :
