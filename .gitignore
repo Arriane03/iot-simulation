@@ -1,0 +1,12 @@
+# Sécurité / MQTT
+passwd
+passwords.txt
+mosquitto.key
+mosquitto.crt
+
+# Environnement Python
+.venv/
+
+# Python
+__pycache__/
+*.pyc
