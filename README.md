@@ -1,4 +1,4 @@
-# Projet IoT – Simulation MQTT sécurisée (TLS)
+# Projet IoT – Simulation MQTT sécurisée avec TLS
 
 
 
